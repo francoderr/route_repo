@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const router = express.Router();
 
-router.get('/home', (req, res) => {
+router.get('/', (req, res) => {
     res.send('Hello World, This is the home router');
 });
 
